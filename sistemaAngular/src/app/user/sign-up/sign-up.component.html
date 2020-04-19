@@ -1,0 +1,43 @@
+<div *ngIf="isLoginError" class="red-text center error-message">
+  <i class="material-icons">error</i> Login ou Senha Incorreto!
+</div>
+
+<form class="col s12 white">
+    <div class="row">
+      <div class="input-field col s6">
+        <input type="text" name="Login" >
+        <label >Login</label>
+      </div>
+      <div class="input-field col s6">
+        <input class="validate" type="password" name="Password" >
+        <label >Password</label>
+      </div>
+    </div>
+    <div class="row">
+      <div class="input-field col s12">
+        <input class="validate" type="text" name="Email">
+        <label >Email</label>
+      </div>
+      <div class="input-field col s12">
+        <input class="validate" type="text" name="Phone">
+        <label >Phone</label>
+      </div>
+      
+      
+    </div>
+     <div class="row">
+      <div class="input-field col s12">
+        <input type="text" name="FullName">
+        <label>Full Name</label>
+      </div>
+      <div class="input-field col s12">
+        <input type="text" name="cpf">
+        <label>CPF</label>
+      </div>
+    </div> 
+    <div class="row">
+      <div class="input-field col s12">
+        <button  class="btn-large btn-submit" type="submit">Submit</button>
+      </div> 
+    </div>
+  </form>
